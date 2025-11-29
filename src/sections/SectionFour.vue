@@ -76,7 +76,7 @@ const copyToClipboard = async () => {
 .glass-board {
   width: 100%;
   height: 800px;
-  background-color: rgba(200, 200, 210, 0.3);
+  background-color: rgba(20, 20, 30, 0.4);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   display: flex;

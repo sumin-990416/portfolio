@@ -5,8 +5,8 @@
         
         <div class="row mb-5 justify-content-center">
           <div class="col-12 text-center">
-            <h2 class="section-title">My Skills</h2>
-            <p class="section-subtitle">Data Science & Development Stack</p>
+            <h2 class="section-title">My Stacks</h2>
+            <p class="section-subtitle">(통계학 + 데이터 사이언스 + 개발자)</p>
           </div>
         </div>
 
@@ -149,14 +149,14 @@ const replayAnimation = (skill) => {
 
 .glass-board {
   width: 100%;
-  height: 100%;
-  background-color: rgba(200, 200, 210, 0.3);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  height: 800px;
+  /* 배경을 좀 더 어둡게 해서 타이틀 강조 */
+  background-color: rgba(20, 20, 30, 0.4); 
+  backdrop-filter: blur(10px);
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius:  30px;
+  border-radius: 30px;
 }
 
 /* 제목 크기 조정 (적당히 줄임) */
@@ -171,7 +171,7 @@ const replayAnimation = (skill) => {
 
 .section-subtitle {
   font-family: "Pretendard", sans-serif;
-  font-size: 1.2rem; /* 1.4rem -> 1.2rem */
+  font-size: 1.7rem; /* 1.4rem -> 1.2rem */
   color: #ffffff !important;
   margin-bottom: 40px;
   font-weight: 600;

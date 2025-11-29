@@ -8,6 +8,9 @@
         <SectionOne />
       </div>
       <div class="section">
+        <div class="slide">
+          <SectionTwoBase />
+        </div>
         <div class='slide'>
           <SectionTwo />
         </div>
@@ -44,6 +47,7 @@ import SectionTwo4 from './sections/SectionTwo4.vue';
 import SectionThree from './sections/SectionThree.vue';
 import SectionFour from './sections/SectionFour.vue';
 import SectionZero from './sections/SectionZero.vue';
+import SectionTwoBase from './sections/SectionTwoBase.vue';
 
 let fpInstance;
 

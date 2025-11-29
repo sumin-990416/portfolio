@@ -98,14 +98,13 @@ const links = ref([
 /* 유리 질감 배경 */
 .glass-board {
   width: 100%;
-  height: 700px;
-  background-color: rgba(200, 200, 210, 0.3);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  height: 800px;
+  background-color: rgba(20, 20, 30, 0.4); 
+  backdrop-filter: blur(10px);
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 30px ;
+  border-radius: 30px;
 }
 
 /* 제목 */

@@ -54,13 +54,13 @@ const toggleFlip = () => {
   align-items: center;
 }
 
-/* 유리 질감 배경 */
+
 .glass-board {
   width: 100%;
-  height: 100%;
-  background-color: rgba(200, 200, 210, 0.3);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  height: 800px;
+  /* 배경을 좀 더 어둡게 해서 타이틀 강조 */
+  background-color: rgba(20, 20, 30, 0.4); 
+  backdrop-filter: blur(10px);
   display: flex;
   align-items: center;
   justify-content: center;
