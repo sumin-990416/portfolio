@@ -57,8 +57,7 @@ const toggleFlip = () => {
 
 .glass-board {
   width: 100%;
-  height: 800px;
-  /* 배경을 좀 더 어둡게 해서 타이틀 강조 */
+  height: 900px;
   background-color: rgba(20, 20, 30, 0.4); 
   backdrop-filter: blur(10px);
   display: flex;
