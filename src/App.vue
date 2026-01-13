@@ -30,6 +30,9 @@
       <div class="section">
         <SectionFour />
       </div>
+      <div class="section">
+        <SectionFive />
+      </div>
     </div>
   </div>
 </template>
