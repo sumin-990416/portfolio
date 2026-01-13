@@ -23,15 +23,15 @@
         <div class='slide'>
           <SectionTwo4 />
         </div>
+        <div class='slide'>
+          <SectionTwo5 />
+        </div>
       </div>
       <div class="section">
         <SectionThree />
       </div>
       <div class="section">
         <SectionFour />
-      </div>
-      <div class="section">
-        <SectionFive />
       </div>
     </div>
   </div>
@@ -47,6 +47,7 @@ import SectionTwo from './sections/SectionTwo.vue';
 import SectionTwo2 from './sections/SectionTwo2.vue';
 import SectionTwo3 from './sections/SectionTwo3.vue';
 import SectionTwo4 from './sections/SectionTwo4.vue';
+import SectionTwo4 from './sections/SectionTwo5.vue';
 import SectionThree from './sections/SectionThree.vue';
 import SectionFour from './sections/SectionFour.vue';
 import SectionZero from './sections/SectionZero.vue';

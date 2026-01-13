@@ -17,7 +17,7 @@
             
             <div class="stats-row">
               <div class="stat-item">
-                <span class="number">04</span>
+                <span class="number">05</span>
                 <span class="label">Projects</span>
               </div>
               <div class="divider"></div>
