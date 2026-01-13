@@ -47,7 +47,7 @@ import SectionTwo from './sections/SectionTwo.vue';
 import SectionTwo2 from './sections/SectionTwo2.vue';
 import SectionTwo3 from './sections/SectionTwo3.vue';
 import SectionTwo4 from './sections/SectionTwo4.vue';
-import SectionTwo4 from './sections/SectionTwo5.vue';
+import SectionTwo5 from './sections/SectionTwo5.vue';
 import SectionThree from './sections/SectionThree.vue';
 import SectionFour from './sections/SectionFour.vue';
 import SectionZero from './sections/SectionZero.vue';
