@@ -15,11 +15,11 @@
           <div class="flip-card-inner" :class="{ 'is-flipped': isFlipped }">
             
             <div class="flip-card-front">
-              <img src="/sec2_5.jpg" alt="앞면" />
+              <img :src="sec2_5" alt="앞면" />
             </div>
 
             <div class="flip-card-back">
-              <img src="/sec2_5_2.jpg" alt="뒷면" />
+              <img :src="sec2_5_2" alt="뒷면" />
             </div>
 
           </div>
@@ -33,6 +33,10 @@
 
 <script setup>
 import { ref } from 'vue';
+
+// 이미지는 `src/assets`에 저장되어 있어야 합니다.
+import sec2_5 from '../assets/sec2_5.png'
+import sec2_5_2 from '../assets/sec2_5_2.png'
 
 const isFlipped = ref(false);
 
